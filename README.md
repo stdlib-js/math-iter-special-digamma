@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-iter-special-digamma
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterDigamma = require( '@stdlib/math-iter-special-digamma' );
+import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@deno/mod.js';
 ```
 
 #### iterDigamma( iterator )
@@ -65,7 +49,7 @@ var iterDigamma = require( '@stdlib/math-iter-special-digamma' );
 Returns an [iterator][mdn-iterator-protocol] which iteratively evaluates the [digamma function][@stdlib/math/base/special/digamma].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 
 var it = iterDigamma( array2iterator( [ -2.5, 1.0 ] ) );
 // returns <Object>
@@ -110,8 +94,8 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var uniform = require( '@stdlib/random-iter-uniform' );
-var iterDigamma = require( '@stdlib/math-iter-special-digamma' );
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
+import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( 0.01, 5.0, {
@@ -170,7 +154,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -234,11 +218,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/deno
 
-[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma
+[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma/tree/deno
 
-[@stdlib/math/iter/special/trigamma]: https://github.com/stdlib-js/math-iter-special-trigamma
+[@stdlib/math/iter/special/trigamma]: https://github.com/stdlib-js/math-iter-special-trigamma/tree/deno
 
 <!-- </related-links> -->
 

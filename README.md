@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@esm/index.mjs';
+import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@v0.2.1-esm/index.mjs';
 ```
 
 #### iterDigamma( iterator )
@@ -111,7 +111,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@esm/index.mjs';
+import iterDigamma from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-digamma@v0.2.1-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( 0.01, 5.0, {
